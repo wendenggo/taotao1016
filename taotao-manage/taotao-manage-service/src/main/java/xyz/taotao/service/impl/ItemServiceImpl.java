@@ -6,6 +6,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 import xyz.taotao.common.jedis.JedisClient;
+import xyz.taotao.common.pojo.EUDateGridResult;
+import xyz.taotao.common.util.JsonUtils;
+import xyz.taotao.mapper.TbItemDescMapper;
+import xyz.taotao.mapper.TbItemMapper;
+import xyz.taotao.mapper.TbItemParamItemMapper;
 import xyz.taotao.pojo.TbItem;
 import xyz.taotao.pojo.TbItemExample;
 import xyz.taotao.service.ItemService;
@@ -60,6 +65,8 @@ public class ItemServiceImpl implements ItemService {
         }
         return null;
     }
+    @Override
+    public EUDateGridResult getItem
 
 
 }
