@@ -1,6 +1,8 @@
 xyz\taotao\common\pojo\EUTreeNode.class
 xyz\taotao\common\pojo\TaotaoResult.class
 xyz\taotao\common\jedis\JedisClient.class
-xyz\taotao\common\jedis\JedisClientPool.class
+xyz\taotao\common\util\IDUtils.class
 xyz\taotao\common\pojo\EUDateGridResult.class
+xyz\taotao\common\jedis\JedisClientPool.class
+xyz\taotao\common\util\JsonUtils.class
 xyz\taotao\common\jedis\JedisClientCluster.class
